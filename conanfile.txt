@@ -1,0 +1,10 @@
+[requires]
+# xtensor
+xtensor/0.24.0
+# testing HTTP requests
+cpr/1.6.2
+# hdf5
+highfive/2.3.1
+
+[generators]
+cmake

@@ -1,0 +1,13 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: "pip install conan"
+  - command: "conan install . && cmake -DCMAKE_BUILD_TYPE=release . && make"
+
+vscode:
+  extensions:
+    - webfreak.debug
+    - ms-vscode.cmake-tools
+    - twxs.cmake
+    - cschlosser.doxdocgen

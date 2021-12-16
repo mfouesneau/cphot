@@ -26,18 +26,20 @@ We discuss the value of this sample of objects for the precise calibration of ph
 
 [Planck's Law](https://en.wikipedia.org/wiki/Planck%27s_law) of blackbody radiation states[^Rybicki1979] that
 
-$$ {\displaystyle f_{\lambda }(T)=a\,\cdot\,{\frac {2h\nu ^{3}}{c^{2}}}{\frac {1}{e^{h\nu /kT}-1}}=a\,\cdot\,\frac{2hc^2}{\lambda^5}{\frac {1}{e^{hc /\lambda kT}-1}},}$$
+\f[
+   {\displaystyle f_{\lambda }(T)=a\,\cdot\,{\frac {2h\nu ^{3}}{c^{2}}}{\frac {1}{e^{h\nu /kT}-1}}=a\,\cdot\,\frac{2hc^2}{\lambda^5}{\frac {1}{e^{hc /\lambda kT}-1}},}
+\f]
 
 where
 
-* $f_\lambda(T)$ is the spectral flux density at thermal equilibrium of temperature $T$.
-* $h$ is the Planck constant ($6.6260693\cdot10^{-34}$  J/s);
-* $c$ is the speed of light in a vacuum ($299792458\cdot 10^6\mu m/s$);
-* $k$ is the Boltzmann constant ($1.3806505\cdot 10^{-23}$ J/K);
-* $\nu$ is the frequency of the electromagnetic radiation;
-* $\lambda$ is the wavelength of the electromagnetic radiation;
-* $T$ is the absolute temperature of the body;
-* and $a$ is a dimensionless normalization factor.
+* \f$f_\lambda(T)\f$ is the spectral flux density at thermal equilibrium of temperature \f$T\f$.
+* \f$h\f$ is the Planck constant (\f$6.6260693\cdot10^{-34}\f$  J/s);
+* \f$c\f$ is the speed of light in a vacuum (\f$299792458\cdot 10^6\mu m/s\f$);
+* \f$k\f$ is the Boltzmann constant (\f$1.3806505\cdot 10^{-23}\f$ J/K);
+* \f$\nu\f$ is the frequency of the electromagnetic radiation;
+* \f$\lambda\f$ is the wavelength of the electromagnetic radiation;
+* \f$T\f$ is the absolute temperature of the body;
+* and \f$a\f$ is a dimensionless normalization factor.
 
 Note that $a$ can alternatively links to the angular size $\theta$
 $$ \theta = \sqrt{\frac{a}{\pi}} = \frac{R}{d}$$
@@ -56,10 +58,10 @@ radius, and $d$ is the distance to the star.
 
 Suzuki & Fukugita (2018)[^Suzuki2018] provides us with ~20 objects with spectroscopic follow-ups.
 
-We compared these objects against the Montreal White Dwarf Database[^Dufour2017] ([MWDD](http://www.montrealwhitedwarfdatabase.org/tables-and-charts.html)).
+We also compare these objects against the Montreal White Dwarf Database[^Dufour2017] ([MWDD](http://www.montrealwhitedwarfdatabase.org/tables-and-charts.html)).
 MWDD contains only the information found in the Tables (and sometimes in the text) of literature publications (References on the website). Since a star can be published under many different names, each star is assigned a unique identifier via Simbad. If a star is entered in different papers under different names, the entries will be merged together in the database.
 
-The table (`MWDD-GDR2.csv`) gives the most recent value of each variable of each stars.
+The table and the charts show the most recent value of each variable of each stars (`MWDD-GDR2.csv`)
 
 
 
